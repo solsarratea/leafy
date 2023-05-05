@@ -8,6 +8,7 @@ Updating example of *Leafy.js* with PapaParse.
 - Requirements:  published spritesheet should be set as `.csv`  
 [Detailed example](https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o)
 
+You can try the [demo](https://demo-leafy.netlify.app/)
 
 ------
 

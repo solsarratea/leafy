@@ -1,32 +1,33 @@
 # Leafy
 
+-----
+# 2023 updates
+## Replacing Tabletop.js for Papa Parse
+Updating example of *Leafy.js* with PapaParse.
+
+- Requirements:  published spritesheet should be set as `.csv`  
+[Detailed example](https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o)
+
+
+------
+
 Leafy is an easy-to-use template designed to turn your google spreadsheet into a styled, sortable table on a website. 
 
 ![Leafy example screenshot](https://cdn.glitch.com/a0713ae5-198b-4366-b7e9-e40b63c44f84%2FScreen%20Shot%202020-03-23%20at%2012.57.15%20AM.png?v=1584939475695)
 *Screenshot of example Leafy page*  
 
-- Built on [Tabletop.js](https://github.com/jsoma/tabletop), which lets you use google spreadsheet as your backend database. 
+- Built on [Papa Parse](https://github.com/mholt/PapaParse), which lets you use google spreadsheet as your backend database. 
 - Use the spread sheet to generate a sortable list on your website.  
 - Sort the list through customized categories. Tag items in your spreadsheet with multiple categories.
 
 Leafy is made for educators and organizers, with the intention of small - large scale collaborations. Build an ongoing list of readings, resources, to-dos, etc and distribute your content to the greater community. Making edits to the spreadsheet will automatically post these changes to your Leafy site. 
 
-# Examples built with Leafy
-
-[Basic minimal example](https://leafy-template.glitch.me/)
-
-[Weird Game-Making Tools](http://weird-game-tools.glitch.me/), contributed by [@lee2sman](https://github.com/lee2sman)
-
-[Thesis during COVID](https://thesis-during-covid.glitch.me/), multiple contributors
-
-[Open source, experimental, and tiny tools roundup](https://tinytools.directory/), multiple contributors, compiled by [@everestpipkin](https://github.com/everestpipkin)
-
 # Getting Started
 
 ## Set up a google spreadsheet
-1. Visit the google spreadsheet template I've created [here](https://docs.google.com/spreadsheets/d/1Q23ZnH7KHBHahFT65_9RisSu1Wk4gNOrowiprtxgE4A/edit?usp=sharing). Duplicate the spreadsheet and save it into your own google drive.
-1. Edit the spreadsheet with your own data. You can expand or delete the number of categories. Enter URLs under the Link column, or you could also leave it empty. 
-1. Visit [Tabletop.js' README](https://github.com/jsoma/tabletop/blob/master/README.md), scroll down to Getting Started, and follow the instructions inside the **1) Publishing your Google Sheet** section. 
+1. Visit the google spreadsheet template I've created [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTSL7xFijPpq7-IseyKEVnE1k0cDW-LHERb0-b5vxT4yOSg3neXgyC5cljBStGvb9kJ3h9QTlWrGGdZ/pub?output=csv'). Duplicate the spreadsheet and save it into your own google drive.
+2. Edit the spreadsheet with your own data. You can expand or delete the number of categories. Enter URLs under the Link column, or you could also leave it empty. 
+3. Follow [these instructions](https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o) for your spreadsheet to *Publish to the web*
 
 ## Put spreadsheet on a website
 

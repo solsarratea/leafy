@@ -7,7 +7,7 @@ const categoryStartNum = 3 // let the program know where the categoy begins on t
 const sheetName = 'Sheet1' // this has to match your google doc sheet name
 const punctuation = ',' // this changes the punctuation between the title and the description. In most cases you'd want to use "," or "-" or ":"
 
-// tableTop.js script
+// Papa parse
 function init() {
   Papa.parse(publicSpreadsheetUrl, {
     download: true,
@@ -16,12 +16,12 @@ function init() {
   })
 }
 
-function showInfo(results, e) {
+function showInfo(results) {
   const data = results.data
 
   const checked = 'x'
   const columnArray = Object.keys(data[0])
-  console.log(columnArray)
+
   const columnName = [columnArray.length]
 
   for (let j = 0; j < columnArray.length; j++) {
